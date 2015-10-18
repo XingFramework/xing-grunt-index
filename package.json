@@ -1,0 +1,41 @@
+{
+  "name": "xing-index",
+  "description": "Build Xing index.html",
+  "version": "0.0.1",
+  "homepage": "https://github.com/XingFramework/xing-grunt-index",
+  "author": {
+    "name": "Logical Reality Design, Inc",
+    "email": "xing@lrdesign.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:XingFramework/xing-grunt-index.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XingFramework/xing-grunt-index/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/XingFramework/xing-grunt-index/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
