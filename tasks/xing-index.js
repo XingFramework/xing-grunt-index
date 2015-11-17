@@ -15,7 +15,7 @@ module.exports = function(grunt) {
    * the list into variables for the template to use and then runs the
    * compilation.
    */
-  grunt.registerMultiTask( 'index', 'Process index.html template', function () {
+  grunt.registerMultiTask( 'xing-index', 'Process index.html template', function () {
     var options = this.options();
     var spriteSheet = "";
     var jsFiles = options.js || [];
@@ -45,6 +45,7 @@ module.exports = function(grunt) {
     }
 
     this.files.forEach(function(file) {
+      console.log("tasks/xing-index.js:48", "file", file);
       grunt.log.write(file.src[0], " -> ", file.dest, "... ");
       grunt.file.copy(file.src[0], file.dest, {
         process: function ( contents, path ) {
