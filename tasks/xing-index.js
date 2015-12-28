@@ -45,7 +45,6 @@ module.exports = function(grunt) {
     }
 
     this.files.forEach(function(file) {
-      console.log("tasks/xing-index.js:48", "file", file);
       grunt.log.write(file.src[0], " -> ", file.dest, "... ");
       grunt.file.copy(file.src[0], file.dest, {
         process: function ( contents, path ) {
