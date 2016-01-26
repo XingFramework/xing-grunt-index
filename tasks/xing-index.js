@@ -41,7 +41,7 @@ module.exports = function(grunt) {
     }
 
     if(!options.production){
-      jsFiles.push("http://localhost:"+grunt.config('liveReloadPort')+"/livereload.js?snipver=1&maxdelay=15000");
+      jsFiles.push("http://localhost:"+options.liveReloadPort+"/livereload.js?snipver=1&maxdelay=15000");
     }
 
     this.files.forEach(function(file) {
