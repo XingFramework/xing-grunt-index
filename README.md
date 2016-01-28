@@ -1,89 +1,18 @@
-# xing-index
+The Xing Framework
+===
 
-> Build Xing index.html
+***To learn more about the Xing Framework, read the [Xing Book](https://xingframework.gitbooks.io/the-xing-framework/content/).***
 
-## Getting Started
-This plugin requires Grunt `~0.4.5`
+xing-grunt-index
+---
 
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+<a href="https://codeclimate.com/github/XingFramework/xing-grunt-index"><img src="https://codeclimate.com/github/XingFramework/xing-grunt-index/badges/gpa.svg" /></a>
 
-```shell
-npm install xing-index --save-dev
-```
+This package is a grunt task that compiles Xing's index.html page on the frontend.
 
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
+Authors
+-------
 
-```js
-grunt.loadNpmTasks('xing-index');
-```
+* Judson Lester
 
-## The "xing_index" task
-
-### Overview
-In your project's Gruntfile, add a section named `xing_index` to the data object passed into `grunt.initConfig()`.
-
-```js
-grunt.initConfig({
-  xing_index: {
-    options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
-  },
-});
-```
-
-### Options
-
-#### options.separator
-Type: `String`
-Default value: `',  '`
-
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
-
-### Usage Examples
-
-#### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
-
-```js
-grunt.initConfig({
-  xing_index: {
-    options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
-});
-```
-
-#### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
-
-```js
-grunt.initConfig({
-  xing_index: {
-    options: {
-      separator: ': ',
-      punctuation: ' !!!',
-    },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
-});
-```
-
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-_(Nothing yet)_
+The Xing Framework strives to be an open and inclusive project. All Contributors to the Xing Framework must abide by our [Code Of Conduct](CODE_OF_CONDUCT.md)
