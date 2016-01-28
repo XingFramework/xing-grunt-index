@@ -8,6 +8,14 @@ xing-grunt-index
 
 <a href="https://codeclimate.com/github/XingFramework/xing-grunt-index"><img src="https://codeclimate.com/github/XingFramework/xing-grunt-index/badges/gpa.svg" /></a>
 
+The Xing Framework is a cutting edge web and mobile development platform by
+Logical Reality Design, Inc.  It is designed to provide a completely modern
+(and even somewhat future-proofed) API + SPA web development platform with
+sensible defaults, solid conventions, and ease of rapid development. Xing uses
+Rails (4.2) on the backend and AngularJS (1.4) on the frontend.  Most of the
+problems inherent in getting these two frameworks to talk to each other cleanly
+have been pre-solved in Xing.
+
 This package is a grunt task that compiles Xing's index.html page on the frontend.
 
 Authors
